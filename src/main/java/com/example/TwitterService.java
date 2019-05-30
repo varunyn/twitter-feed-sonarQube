@@ -83,6 +83,7 @@ public class TwitterService {
 						e.printStackTrace();
 					}
             	}
+		    return;
             }
         }).start();
     	// the output will be probably returned even before
