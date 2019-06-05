@@ -111,7 +111,7 @@ return this.resultValue();
 
 						if (cnt < 10) {
 							System.out.println(tweet.toString());
-                            throw new IllegalArgumentException("cnt must be nonnegative");
+                             new IllegalArgumentException("cnt must be nonnegative");
 						}
 						if (cnt > 0) {
 							sbOut.append(",\n");
